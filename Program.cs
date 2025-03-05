@@ -12,12 +12,13 @@ class Program
         {
             Console.Clear();
             Console.WriteLine("[Menu Desafio Target]");
-            Console.WriteLine("1 - Desafio 1");
-            Console.WriteLine("2 - Desafio 2");
-            Console.WriteLine("3 - Desafio 3");
-            Console.WriteLine("4 - Desafio 4");
+            Console.WriteLine("1 - Soma");
+            Console.WriteLine("2 - Sequência de Fibonacci");
+            Console.WriteLine("3 - Faturamento Diário");
+            Console.WriteLine("4 - Faturamento Mensal");
+            Console.WriteLine("5 - Inverter String");
             Console.WriteLine("S - Sair");
-            Console.Write("Escolha um valor entre 1 e 5 para acessar um desafio ou a letra S para sair: ");
+            Console.Write("Escolha um valor entre 1 e 5 para acessar um desafio ou S para sair: ");
 
             var opcao = Console.ReadLine().ToUpper();
 
@@ -34,6 +35,9 @@ class Program
                     break;
                 case "4":
                     FaturamentoMensal.Executar();
+                    break;
+                case "5":
+                    InverterString.Executar();
                     break;
                 case "S":
                     Console.Clear();
