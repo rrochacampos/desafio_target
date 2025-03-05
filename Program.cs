@@ -13,6 +13,7 @@ class Program
             Console.Clear();
             Console.WriteLine("[Menu Desafio Target]");
             Console.WriteLine("1 - Desafio 1");
+            Console.WriteLine("2 - Desafio 2");
             Console.WriteLine("S - Sair");
             Console.Write("Escolha um valor entre 1 e 5 para acessar um desafio ou a letra S para sair: ");
 
@@ -22,6 +23,9 @@ class Program
             {
                 case "1":
                     Soma.Executar();
+                    break;
+                case "2":
+                    SequenciaFibonacci.Executar();
                     break;
                 case "S":
                     Console.Clear();
