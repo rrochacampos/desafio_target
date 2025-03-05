@@ -13,3 +13,7 @@ C:\Users\Rodrigo\Documents\workspace\desafio_target\obj\Debug\net9.0\refint\desa
 C:\Users\Rodrigo\Documents\workspace\desafio_target\obj\Debug\net9.0\desafio_target.pdb
 C:\Users\Rodrigo\Documents\workspace\desafio_target\obj\Debug\net9.0\desafio_target.genruntimeconfig.cache
 C:\Users\Rodrigo\Documents\workspace\desafio_target\obj\Debug\net9.0\ref\desafio_target.dll
+C:\Users\Rodrigo\Documents\workspace\desafio_target\bin\Debug\net9.0\Data\dados.json
+C:\Users\Rodrigo\Documents\workspace\desafio_target\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\Rodrigo\Documents\workspace\desafio_target\obj\Debug\net9.0\desafio_target.csproj.AssemblyReference.cache
+C:\Users\Rodrigo\Documents\workspace\desafio_target\obj\Debug\net9.0\desafio_.6464E826.Up2Date
