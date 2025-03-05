@@ -1,0 +1,15 @@
+C:\Users\Rodrigo\Documents\workspace\desafio_target\bin\Debug\net9.0\desafio_target.exe
+C:\Users\Rodrigo\Documents\workspace\desafio_target\bin\Debug\net9.0\desafio_target.deps.json
+C:\Users\Rodrigo\Documents\workspace\desafio_target\bin\Debug\net9.0\desafio_target.runtimeconfig.json
+C:\Users\Rodrigo\Documents\workspace\desafio_target\bin\Debug\net9.0\desafio_target.dll
+C:\Users\Rodrigo\Documents\workspace\desafio_target\bin\Debug\net9.0\desafio_target.pdb
+C:\Users\Rodrigo\Documents\workspace\desafio_target\obj\Debug\net9.0\desafio_target.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rodrigo\Documents\workspace\desafio_target\obj\Debug\net9.0\desafio_target.AssemblyInfoInputs.cache
+C:\Users\Rodrigo\Documents\workspace\desafio_target\obj\Debug\net9.0\desafio_target.AssemblyInfo.cs
+C:\Users\Rodrigo\Documents\workspace\desafio_target\obj\Debug\net9.0\desafio_target.csproj.CoreCompileInputs.cache
+C:\Users\Rodrigo\Documents\workspace\desafio_target\obj\Debug\net9.0\desafio_target.sourcelink.json
+C:\Users\Rodrigo\Documents\workspace\desafio_target\obj\Debug\net9.0\desafio_target.dll
+C:\Users\Rodrigo\Documents\workspace\desafio_target\obj\Debug\net9.0\refint\desafio_target.dll
+C:\Users\Rodrigo\Documents\workspace\desafio_target\obj\Debug\net9.0\desafio_target.pdb
+C:\Users\Rodrigo\Documents\workspace\desafio_target\obj\Debug\net9.0\desafio_target.genruntimeconfig.cache
+C:\Users\Rodrigo\Documents\workspace\desafio_target\obj\Debug\net9.0\ref\desafio_target.dll
