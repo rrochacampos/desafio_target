@@ -15,6 +15,7 @@ class Program
             Console.WriteLine("1 - Desafio 1");
             Console.WriteLine("2 - Desafio 2");
             Console.WriteLine("3 - Desafio 3");
+            Console.WriteLine("4 - Desafio 4");
             Console.WriteLine("S - Sair");
             Console.Write("Escolha um valor entre 1 e 5 para acessar um desafio ou a letra S para sair: ");
 
@@ -30,6 +31,9 @@ class Program
                     break;
                 case "3":
                     FaturamentoDiario.Executar();
+                    break;
+                case "4":
+                    FaturamentoMensal.Executar();
                     break;
                 case "S":
                     Console.Clear();
