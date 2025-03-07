@@ -1,6 +1,6 @@
 namespace Desafios
 {
-    public class FaturamentoMensal
+    public static class FaturamentoMensal
     {
         public static void Executar()
         {
@@ -27,13 +27,7 @@ namespace Desafios
                 Console.WriteLine($"Percentual de {faturamento.Estado}: {percentual:F2}%");
             }
 
-            MenuPrincipal();
-        }
-
-        private static void MenuPrincipal()
-        {
-            Console.WriteLine("\nPressione qualquer tecla para voltar ao menu principal.");
-            Console.ReadKey();
+            MenuPrincipal.Voltar();
         }
     }
 

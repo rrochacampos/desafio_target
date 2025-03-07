@@ -1,6 +1,6 @@
 namespace Desafios
 {
-    public class SequenciaFibonacci
+    public static class SequenciaFibonacci
     {
         public static void Executar()
         {
@@ -31,16 +31,10 @@ namespace Desafios
                 primeiroNum = segundoNum;
                 segundoNum = numAtual;
             }
-            
-            Console.WriteLine($"O número {numeroInformado} {(numAtual == numeroInformado ? "pertence" : "não pertence")} à sequência de Fibonacci.");
-            
-            MenuPrincipal();
-        }
 
-        private static void MenuPrincipal()
-        {
-            Console.WriteLine("\nPressione qualquer tecla para voltar ao menu principal.");
-            Console.ReadKey();
+            Console.WriteLine($"O número {numeroInformado} {(numAtual == numeroInformado ? "pertence" : "não pertence")} à sequência de Fibonacci.");
+
+            MenuPrincipal.Voltar();
         }
     }
 }

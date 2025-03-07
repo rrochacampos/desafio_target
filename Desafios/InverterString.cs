@@ -1,32 +1,26 @@
 namespace Desafios
 {
-    public class InverterString
+    public static class InverterString
     {
         public static void Executar()
         {
             Console.Clear();
             Console.WriteLine("[Desafio 5: Inverter String]");
-            
-        Console.Write("\nDigite uma string: ");
 
-        string? original = Console.ReadLine() ?? "String padrão";
-        string invertida = "";
+            Console.Write("\nDigite uma string: ");
 
-        for (int i = original.Length - 1; i >= 0; i--)
-        {
-            invertida += original[i];
-        }
+            string? original = Console.ReadLine() ?? "String padrão";
+            string invertida = "";
 
-        Console.WriteLine("\nString original: " + original);
-        Console.WriteLine("String invertida: " + invertida);
+            for (int i = original.Length - 1; i >= 0; i--)
+            {
+                invertida += original[i];
+            }
 
-            MenuPrincipal();
-        }
+            Console.WriteLine("\nString original: " + original);
+            Console.WriteLine("String invertida: " + invertida);
 
-        private static void MenuPrincipal()
-        {
-            Console.WriteLine("\nPressione qualquer tecla para voltar ao menu principal.");
-            Console.ReadKey();
+            MenuPrincipal.Voltar();
         }
     }
 }

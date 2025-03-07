@@ -3,7 +3,7 @@ using Newtonsoft.Json;
 
 namespace Desafios
 {
-    public class FaturamentoDiario
+    public static class FaturamentoDiario
     {
         public static void Executar()
         {
@@ -39,7 +39,7 @@ namespace Desafios
             Console.WriteLine($"Valor da média mensal de faturamento: {mediaMensal:C}");
             Console.WriteLine($"Número de dias com faturamento superior à média: {diasAcimaDaMedia}");
 
-            MenuPrincipal();
+            MenuPrincipal.Voltar();
         }
 
         static Faturamento[]? LerArquivoJson(string caminho)
@@ -59,12 +59,6 @@ namespace Desafios
                 Console.WriteLine($"Erro ao processar o JSON: {ex.Message}");
                 return null;
             }
-        }
-
-        private static void MenuPrincipal()
-        {
-            Console.WriteLine("\nPressione qualquer tecla para voltar ao menu principal.");
-            Console.ReadKey();
         }
     }
 
