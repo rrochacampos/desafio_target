@@ -12,7 +12,7 @@ namespace Desafios
 
             string caminhoDoArquivo = "Data/dados.json";
 
-            Faturamento[] faturamentoDiario = LerArquivoJson(caminhoDoArquivo);
+            Faturamento[]? faturamentoDiario = LerArquivoJson(caminhoDoArquivo);
 
             if (faturamentoDiario == null || !faturamentoDiario.Any())
             {
@@ -20,7 +20,7 @@ namespace Desafios
                 return;
             }
 
-            var faturamentos = faturamentoDiario.Where(faturamento => faturamento.Valor > 0).ToList();
+            List<Faturamento> faturamentos = faturamentoDiario.Where(faturamento => faturamento.Valor > 0).ToList();
 
             //Menor valor de faturamento
             double menorFaturamento = faturamentos.Min(faturamento => faturamento.Valor);
@@ -42,11 +42,11 @@ namespace Desafios
             MenuPrincipal();
         }
 
-        static Faturamento[] LerArquivoJson(string caminho)
+        static Faturamento[]? LerArquivoJson(string caminho)
         {
             try
             {
-                var json = File.ReadAllText(caminho);
+                string json = File.ReadAllText(caminho);
                 return string.IsNullOrWhiteSpace(json) ? null : JsonConvert.DeserializeObject<Faturamento[]>(json);
             }
             catch (IOException ex)

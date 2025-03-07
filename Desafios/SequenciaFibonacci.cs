@@ -6,10 +6,24 @@ namespace Desafios
         {
             Console.Clear();
             Console.WriteLine("[Desafio 2: Sequência de Fibonacci]");
-            Console.Write("Informe um número inteiro: ");
-            
-            int numeroInformado = int.Parse(Console.ReadLine());
             int primeiroNum = 0, segundoNum = 1, numAtual = 0;
+            int numeroInformado;
+
+            while (true)
+            {
+                Console.Write("Digite um número inteiro: ");
+
+                string? numeroEntrada = Console.ReadLine();
+
+                if (int.TryParse(numeroEntrada, out numeroInformado))
+                {
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine("Valor inválido.");
+                }
+            }
 
             while (numAtual < numeroInformado)
             {
@@ -17,15 +31,9 @@ namespace Desafios
                 primeiroNum = segundoNum;
                 segundoNum = numAtual;
             }
-
-            if (numAtual == numeroInformado)
-            {
-                Console.WriteLine($"O número {numeroInformado} pertence à sequência de Fibonacci.");
-            }
-            else
-            {
-                Console.WriteLine($"O número {numeroInformado} não pertence à sequência de Fibonacci.");
-            }
+            
+            Console.WriteLine($"O número {numeroInformado} {(numAtual == numeroInformado ? "pertence" : "não pertence")} à sequência de Fibonacci.");
+            
             MenuPrincipal();
         }
 

@@ -20,9 +20,9 @@ class Program
             Console.WriteLine("S - Sair");
             Console.Write("Escolha um valor entre 1 e 5 para acessar um desafio ou S para sair: ");
 
-            var opcao = Console.ReadLine().ToUpper();
+            string? opcao = Console.ReadLine() ?? "";
 
-            switch (opcao)
+            switch (opcao.ToUpper())
             {
                 case "1":
                     Soma.Executar();

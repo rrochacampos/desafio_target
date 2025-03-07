@@ -9,7 +9,7 @@ namespace Desafios
             
         Console.Write("\nDigite uma string: ");
 
-        string original = Console.ReadLine();
+        string? original = Console.ReadLine() ?? "String padrão";
         string invertida = "";
 
         for (int i = original.Length - 1; i >= 0; i--)
