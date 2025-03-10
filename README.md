@@ -1,8 +1,8 @@
-# Desafio Técnico Target Sistemas
+# Teste Técnico Target Sistemas
 
 ## Sobre
 
-Este repositório contém a solução de um teste prático para uma vaga na Target Sistemas, desenvolvido em **C#**.
+Este repositório contém a solução de um teste fornecido pela Target Sistemas, desenvolvido em **C#**.
 
 Cada desafio do teste possui seu próprio arquivo dentro da pasta `Desafios`. Confira os links abaixo para acessar cada um:
 
@@ -12,9 +12,7 @@ Cada desafio do teste possui seu próprio arquivo dentro da pasta `Desafios`. Co
 - [Desafio 4](Desafios/FaturamentoMensal.cs)
 - [Desafio 5](Desafios/InverterString.cs)
 
-<details><summary style="color: #007bff; cursor: pointer; font-weight: bold;">Clique aqui para ver as instruções do teste</summary>
-  
-
+<details style="color: #007bff;"><summary style="cursor: pointer; font-weight: bold;">Clique aqui para ver as instruções do teste</summary>
 1 - Observe o trecho de código abaixo:  
 int INDICE = 13, SOMA = 0, K = 0;  
 Enquanto K < INDICE faça { K = K + 1; SOMA = SOMA + K; }  
