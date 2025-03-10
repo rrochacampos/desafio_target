@@ -12,7 +12,7 @@ Cada desafio do teste possui seu próprio arquivo dentro da pasta `Desafios`. Co
 - [Desafio 4](Desafios/FaturamentoMensal.cs)
 - [Desafio 5](Desafios/InverterString.cs)
 
-<details style="color: #007bff;"><summary style="cursor: pointer; font-weight: bold;">Clique aqui para ver as instruções do teste</summary>
+<details><summary style="cursor: pointer; font-weight: bold;">Clique aqui para ver as instruções do teste</summary>
 1 - Observe o trecho de código abaixo:  
 int INDICE = 13, SOMA = 0, K = 0;  
 Enquanto K < INDICE faça { K = K + 1; SOMA = SOMA + K; }  
